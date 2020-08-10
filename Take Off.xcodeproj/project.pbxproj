@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FD4307224E0E46D000BCAFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4307124E0E46D000BCAFB /* AppDelegate.swift */; };
+		1FD4307424E0E46D000BCAFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4307324E0E46D000BCAFB /* ContentView.swift */; };
+		1FD4307624E0E46F000BCAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD4307524E0E46F000BCAFB /* Assets.xcassets */; };
+		1FD4307924E0E46F000BCAFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD4307824E0E46F000BCAFB /* Preview Assets.xcassets */; };
+		1FD4307C24E0E46F000BCAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD4307A24E0E46F000BCAFB /* Main.storyboard */; };
+		1FD4308824E0E46F000BCAFB /* Take_OffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4308724E0E46F000BCAFB /* Take_OffTests.swift */; };
+		1FD4309324E0E46F000BCAFB /* Take_OffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4309224E0E46F000BCAFB /* Take_OffUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FD4308424E0E46F000BCAFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FD4306624E0E46D000BCAFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FD4306D24E0E46D000BCAFB;
+			remoteInfo = "Take Off";
+		};
+		1FD4308F24E0E46F000BCAFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FD4306624E0E46D000BCAFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FD4306D24E0E46D000BCAFB;
+			remoteInfo = "Take Off";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FD4306E24E0E46D000BCAFB /* Take Off.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Take Off.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD4307124E0E46D000BCAFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FD4307324E0E46D000BCAFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FD4307524E0E46F000BCAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FD4307824E0E46F000BCAFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FD4307B24E0E46F000BCAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FD4307D24E0E46F000BCAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD4307E24E0E46F000BCAFB /* Take_Off.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Take_Off.entitlements; sourceTree = "<group>"; };
+		1FD4308324E0E46F000BCAFB /* Take OffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take OffTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD4308724E0E46F000BCAFB /* Take_OffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_OffTests.swift; sourceTree = "<group>"; };
+		1FD4308924E0E46F000BCAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD4308E24E0E46F000BCAFB /* Take OffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take OffUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD4309224E0E46F000BCAFB /* Take_OffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_OffUITests.swift; sourceTree = "<group>"; };
+		1FD4309424E0E46F000BCAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FD4306B24E0E46D000BCAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD4308024E0E46F000BCAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD4308B24E0E46F000BCAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FD4306524E0E46D000BCAFB = {
+			isa = PBXGroup;
+			children = (
+				1FD4307024E0E46D000BCAFB /* Take Off */,
+				1FD4308624E0E46F000BCAFB /* Take OffTests */,
+				1FD4309124E0E46F000BCAFB /* Take OffUITests */,
+				1FD4306F24E0E46D000BCAFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FD4306F24E0E46D000BCAFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FD4306E24E0E46D000BCAFB /* Take Off.app */,
+				1FD4308324E0E46F000BCAFB /* Take OffTests.xctest */,
+				1FD4308E24E0E46F000BCAFB /* Take OffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FD4307024E0E46D000BCAFB /* Take Off */ = {
+			isa = PBXGroup;
+			children = (
+				1FD4307124E0E46D000BCAFB /* AppDelegate.swift */,
+				1FD4307324E0E46D000BCAFB /* ContentView.swift */,
+				1FD4307524E0E46F000BCAFB /* Assets.xcassets */,
+				1FD4307A24E0E46F000BCAFB /* Main.storyboard */,
+				1FD4307D24E0E46F000BCAFB /* Info.plist */,
+				1FD4307E24E0E46F000BCAFB /* Take_Off.entitlements */,
+				1FD4307724E0E46F000BCAFB /* Preview Content */,
+			);
+			path = "Take Off";
+			sourceTree = "<group>";
+		};
+		1FD4307724E0E46F000BCAFB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FD4307824E0E46F000BCAFB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FD4308624E0E46F000BCAFB /* Take OffTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FD4308724E0E46F000BCAFB /* Take_OffTests.swift */,
+				1FD4308924E0E46F000BCAFB /* Info.plist */,
+			);
+			path = "Take OffTests";
+			sourceTree = "<group>";
+		};
+		1FD4309124E0E46F000BCAFB /* Take OffUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FD4309224E0E46F000BCAFB /* Take_OffUITests.swift */,
+				1FD4309424E0E46F000BCAFB /* Info.plist */,
+			);
+			path = "Take OffUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FD4306D24E0E46D000BCAFB /* Take Off */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD4309724E0E46F000BCAFB /* Build configuration list for PBXNativeTarget "Take Off" */;
+			buildPhases = (
+				1FD4306A24E0E46D000BCAFB /* Sources */,
+				1FD4306B24E0E46D000BCAFB /* Frameworks */,
+				1FD4306C24E0E46D000BCAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Take Off";
+			productName = "Take Off";
+			productReference = 1FD4306E24E0E46D000BCAFB /* Take Off.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FD4308224E0E46F000BCAFB /* Take OffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD4309A24E0E46F000BCAFB /* Build configuration list for PBXNativeTarget "Take OffTests" */;
+			buildPhases = (
+				1FD4307F24E0E46F000BCAFB /* Sources */,
+				1FD4308024E0E46F000BCAFB /* Frameworks */,
+				1FD4308124E0E46F000BCAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FD4308524E0E46F000BCAFB /* PBXTargetDependency */,
+			);
+			name = "Take OffTests";
+			productName = "Take OffTests";
+			productReference = 1FD4308324E0E46F000BCAFB /* Take OffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FD4308D24E0E46F000BCAFB /* Take OffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FD4309D24E0E46F000BCAFB /* Build configuration list for PBXNativeTarget "Take OffUITests" */;
+			buildPhases = (
+				1FD4308A24E0E46F000BCAFB /* Sources */,
+				1FD4308B24E0E46F000BCAFB /* Frameworks */,
+				1FD4308C24E0E46F000BCAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FD4309024E0E46F000BCAFB /* PBXTargetDependency */,
+			);
+			name = "Take OffUITests";
+			productName = "Take OffUITests";
+			productReference = 1FD4308E24E0E46F000BCAFB /* Take OffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FD4306624E0E46D000BCAFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "White Paladin Games";
+				TargetAttributes = {
+					1FD4306D24E0E46D000BCAFB = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					1FD4308224E0E46F000BCAFB = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 1FD4306D24E0E46D000BCAFB;
+					};
+					1FD4308D24E0E46F000BCAFB = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 1FD4306D24E0E46D000BCAFB;
+					};
+				};
+			};
+			buildConfigurationList = 1FD4306924E0E46D000BCAFB /* Build configuration list for PBXProject "Take Off" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FD4306524E0E46D000BCAFB;
+			productRefGroup = 1FD4306F24E0E46D000BCAFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FD4306D24E0E46D000BCAFB /* Take Off */,
+				1FD4308224E0E46F000BCAFB /* Take OffTests */,
+				1FD4308D24E0E46F000BCAFB /* Take OffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FD4306C24E0E46D000BCAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD4307C24E0E46F000BCAFB /* Main.storyboard in Resources */,
+				1FD4307924E0E46F000BCAFB /* Preview Assets.xcassets in Resources */,
+				1FD4307624E0E46F000BCAFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD4308124E0E46F000BCAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD4308C24E0E46F000BCAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FD4306A24E0E46D000BCAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD4307424E0E46D000BCAFB /* ContentView.swift in Sources */,
+				1FD4307224E0E46D000BCAFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD4307F24E0E46F000BCAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD4308824E0E46F000BCAFB /* Take_OffTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD4308A24E0E46F000BCAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD4309324E0E46F000BCAFB /* Take_OffUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FD4308524E0E46F000BCAFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FD4306D24E0E46D000BCAFB /* Take Off */;
+			targetProxy = 1FD4308424E0E46F000BCAFB /* PBXContainerItemProxy */;
+		};
+		1FD4309024E0E46F000BCAFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FD4306D24E0E46D000BCAFB /* Take Off */;
+			targetProxy = 1FD4308F24E0E46F000BCAFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FD4307A24E0E46F000BCAFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FD4307B24E0E46F000BCAFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FD4309524E0E46F000BCAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FD4309624E0E46F000BCAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1FD4309824E0E46F000BCAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Take Off/Take_Off.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Take Off/Preview Content\"";
+				DEVELOPMENT_TEAM = CNF2WZFS48;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Take Off/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitepaladingames.Take-Off";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1FD4309924E0E46F000BCAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Take Off/Take_Off.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Take Off/Preview Content\"";
+				DEVELOPMENT_TEAM = CNF2WZFS48;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Take Off/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitepaladingames.Take-Off";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1FD4309B24E0E46F000BCAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CNF2WZFS48;
+				INFOPLIST_FILE = "Take OffTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitepaladingames.Take-OffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Take Off.app/Contents/MacOS/Take Off";
+			};
+			name = Debug;
+		};
+		1FD4309C24E0E46F000BCAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CNF2WZFS48;
+				INFOPLIST_FILE = "Take OffTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitepaladingames.Take-OffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Take Off.app/Contents/MacOS/Take Off";
+			};
+			name = Release;
+		};
+		1FD4309E24E0E46F000BCAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CNF2WZFS48;
+				INFOPLIST_FILE = "Take OffUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitepaladingames.Take-OffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Take Off";
+			};
+			name = Debug;
+		};
+		1FD4309F24E0E46F000BCAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CNF2WZFS48;
+				INFOPLIST_FILE = "Take OffUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whitepaladingames.Take-OffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Take Off";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FD4306924E0E46D000BCAFB /* Build configuration list for PBXProject "Take Off" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD4309524E0E46F000BCAFB /* Debug */,
+				1FD4309624E0E46F000BCAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD4309724E0E46F000BCAFB /* Build configuration list for PBXNativeTarget "Take Off" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD4309824E0E46F000BCAFB /* Debug */,
+				1FD4309924E0E46F000BCAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD4309A24E0E46F000BCAFB /* Build configuration list for PBXNativeTarget "Take OffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD4309B24E0E46F000BCAFB /* Debug */,
+				1FD4309C24E0E46F000BCAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FD4309D24E0E46F000BCAFB /* Build configuration list for PBXNativeTarget "Take OffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD4309E24E0E46F000BCAFB /* Debug */,
+				1FD4309F24E0E46F000BCAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FD4306624E0E46D000BCAFB /* Project object */;
+}
