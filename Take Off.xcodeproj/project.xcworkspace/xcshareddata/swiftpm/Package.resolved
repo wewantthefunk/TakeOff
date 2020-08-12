@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "GridStack",
+        "repositoryURL": "https://github.com/pietropizzi/GridStack.git",
+        "state": {
+          "branch": "master",
+          "revision": "c739e7935f58188e27922ac5dff34c85834fcdae",
+          "version": null
+        }
+      },
+      {
+        "package": "Introspect",
+        "repositoryURL": "https://github.com/siteline/SwiftUI-Introspect.git",
+        "state": {
+          "branch": null,
+          "revision": "de5c32c15ae169cfcb27397ffb2734dcd0e1e6d5",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

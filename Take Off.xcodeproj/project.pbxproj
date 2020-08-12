@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,9 @@
 		1FD4307C24E0E46F000BCAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FD4307A24E0E46F000BCAFB /* Main.storyboard */; };
 		1FD4308824E0E46F000BCAFB /* Take_OffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4308724E0E46F000BCAFB /* Take_OffTests.swift */; };
 		1FD4309324E0E46F000BCAFB /* Take_OffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4309224E0E46F000BCAFB /* Take_OffUITests.swift */; };
+		1FD430A124E0E553000BCAFB /* fileFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD430A024E0E553000BCAFB /* fileFunctions.swift */; };
+		1FD430A424E2E929000BCAFB /* GridStack in Frameworks */ = {isa = PBXBuildFile; productRef = 1FD430A324E2E929000BCAFB /* GridStack */; };
+		1FD430A724E38AFE000BCAFB /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 1FD430A624E38AFE000BCAFB /* Introspect */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,7 @@
 		1FD4308E24E0E46F000BCAFB /* Take OffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take OffUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD4309224E0E46F000BCAFB /* Take_OffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_OffUITests.swift; sourceTree = "<group>"; };
 		1FD4309424E0E46F000BCAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FD430A024E0E553000BCAFB /* fileFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fileFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD430A424E2E929000BCAFB /* GridStack in Frameworks */,
+				1FD430A724E38AFE000BCAFB /* Introspect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +111,7 @@
 				1FD4307D24E0E46F000BCAFB /* Info.plist */,
 				1FD4307E24E0E46F000BCAFB /* Take_Off.entitlements */,
 				1FD4307724E0E46F000BCAFB /* Preview Content */,
+				1FD430A024E0E553000BCAFB /* fileFunctions.swift */,
 			);
 			path = "Take Off";
 			sourceTree = "<group>";
@@ -151,6 +158,10 @@
 			dependencies = (
 			);
 			name = "Take Off";
+			packageProductDependencies = (
+				1FD430A324E2E929000BCAFB /* GridStack */,
+				1FD430A624E38AFE000BCAFB /* Introspect */,
+			);
 			productName = "Take Off";
 			productReference = 1FD4306E24E0E46D000BCAFB /* Take Off.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +234,10 @@
 				Base,
 			);
 			mainGroup = 1FD4306524E0E46D000BCAFB;
+			packageReferences = (
+				1FD430A224E2E929000BCAFB /* XCRemoteSwiftPackageReference "GridStack" */,
+				1FD430A524E38AFE000BCAFB /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+			);
 			productRefGroup = 1FD4306F24E0E46D000BCAFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FD4307424E0E46D000BCAFB /* ContentView.swift in Sources */,
+				1FD430A124E0E553000BCAFB /* fileFunctions.swift in Sources */,
 				1FD4307224E0E46D000BCAFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -597,6 +613,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1FD430A224E2E929000BCAFB /* XCRemoteSwiftPackageReference "GridStack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pietropizzi/GridStack.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		1FD430A524E38AFE000BCAFB /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1FD430A324E2E929000BCAFB /* GridStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FD430A224E2E929000BCAFB /* XCRemoteSwiftPackageReference "GridStack" */;
+			productName = GridStack;
+		};
+		1FD430A624E38AFE000BCAFB /* Introspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FD430A524E38AFE000BCAFB /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */;
+			productName = Introspect;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1FD4306624E0E46D000BCAFB /* Project object */;
 }

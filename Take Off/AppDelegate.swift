@@ -13,11 +13,20 @@ import SwiftUI
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     var window: NSWindow!
+    
+    var r = [TakeOffAppInfo]()
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        let ff = FileFunctions();
+        r = ff.getFiles(path: "/Applications/", first: true)
+        r.append(contentsOf: ff.getFiles(path: "/System/Applications/", first: true))
+        let r1 = r.sorted{
+            ($0.lowerName, $0.lowerName) <
+            ($1.lowerName, $1.lowerName)
+        }
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        let contentView = ContentView(originalList: r1, appInfoArray: r1)
 
         // Create the window and set the content view. 
         window = NSWindow(
@@ -33,7 +42,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-
-
 }
 
