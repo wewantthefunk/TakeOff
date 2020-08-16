@@ -16,7 +16,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     var r = [TakeOffAppInfo]()
 
-
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         let ff = FileFunctions();
         r = ff.getFiles(path: "/Applications/", first: true)
@@ -40,7 +39,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
+        NSApp.terminate(self)
+    }
+    
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        return true
     }
 }
 
